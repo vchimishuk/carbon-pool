@@ -1,0 +1,15 @@
+README
+    carbon-pool is a service to store Graphite metrics on disk.
+    It uses standard Carbon API for feeding metrics, store them locally
+    and provide simple API for clients to pull metrics (e. g. to pass them
+    later to Carbon).
+    Them main goal of carbon-pool is to convert push metrics mechanism to pull.
+
+AUTHORS
+    Viacheslav Chimishuk <vchimishuk@yandex.ru>
+
+COPYING
+    This programm is released under the GNU General Public License version 3 or
+    later, which is distributed in the COPYING file. You should have received a
+    copy of the GNU General Public License along with this program.  If not,
+    see <http://www.gnu.org/licenses/>.

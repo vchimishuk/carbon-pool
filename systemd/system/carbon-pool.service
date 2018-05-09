@@ -1,0 +1,10 @@
+[Unit]
+Description=carbon-pool daemon
+
+[Service]
+ExecStart=/usr/bin/carbon-pool
+User=daemon
+Group=daemon
+
+[Install]
+WantedBy=multi-user.target
